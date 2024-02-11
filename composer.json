@@ -21,8 +21,10 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra":{
-        "laravel":{
-          "providers": "Dyalnu\\Curdmix\\CurdmixServiceProvider"
+        "laravel": {
+            "providers": [
+                "Dyalnu\\Curdmix\\CurdmixServiceProvider"
+            ]
         }
     }
 }
