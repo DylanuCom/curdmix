@@ -1,0 +1,21 @@
+{
+    "name": "dyalnu/curdmix",
+    "description": "Package for creating controllers, models, views, and CRUD operations",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dyalnu\\Curdmix\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "^8.0",
+        "illuminate/filesystem": "^8.0"
+    }
+}
