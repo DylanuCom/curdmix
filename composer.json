@@ -16,16 +16,13 @@
     },
     "require": {
         "php": "^7.4 || ^8.0",
-        "illuminate/support": "^10.0",
-        "dyalnu/curdmix": "^1.0"
+        "illuminate/support": "^10.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Dyalnu\\Curdmix\\CurdmixServiceProvider"
-            ]
+    "extra":{
+        "laravel":{
+          "providers": "Dyalnu\\Curdmix\\CurdmixServiceProvider"
         }
     }
 }
