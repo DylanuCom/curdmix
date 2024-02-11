@@ -5,8 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your.email@example.com"
+            "name": "sherif elkhouly",
+            "email": "elkhouly@gmail.com"
         }
     ],
     "autoload": {
@@ -15,7 +15,9 @@
         }
     },
     "require": {
-        "illuminate/support": "^8.0",
-        "illuminate/filesystem": "^8.0"
-    }
+        "php": "^7.4 || ^8.0",
+        "illuminate/support": "^10.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
