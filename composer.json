@@ -19,5 +19,10 @@
         "illuminate/support": "^10.0"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "extra":{
+        "laravel":{
+          "providers":"Dyalnu\\Curdmix\\CurdmixServiceProvider"
+        }
+    }
 }
