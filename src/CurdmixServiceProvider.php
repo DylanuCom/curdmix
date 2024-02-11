@@ -13,8 +13,7 @@ class CurdmixServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // يمكنك هنا تنفيذ أي منطق تشغيلي للحزمة
-        // مثل تحميل العرضيات أو تسجيل الوحدات النمطية إلخ.
+        // قم بنقل الملف MakeAllCommand.php إلى المسار المطلوب
         $this->publishes([
             __DIR__.'/Console/Commands/MakeAllCommand.php' => app_path('Console/Commands/MakeAllCommand.php'),
         ], 'curdmix-command');
@@ -27,7 +26,6 @@ class CurdmixServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // يمكنك هنا تسجيل أي خدمات تحتاج إلى توفيرها
-        // مثل تسجيل الأجهزة الوسيطة أو الخدمات الخاصة.
+        // لا يلزم تسجيل أي خدمات هنا.
     }
 }
