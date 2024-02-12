@@ -3,7 +3,7 @@
         'name' => 'dyalnu/curdmix',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'dc8248b674182463be3e4dffd8c915c07d25c53d',
+        'reference' => '6cfca0e10c5ee0421dc6d4675ee8b2442bbbc678',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'dyalnu/curdmix' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'dc8248b674182463be3e4dffd8c915c07d25c53d',
+            'reference' => '6cfca0e10c5ee0421dc6d4675ee8b2442bbbc678',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
