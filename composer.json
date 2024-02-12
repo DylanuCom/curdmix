@@ -20,7 +20,12 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "extra":{
+    "scripts": {
+        "post-autoload-dump": [
+            "Dyalnu\\Curdmix\\InstallScript::run"
+        ]
+    },
+    "extra": {
         "laravel": {
             "providers": [
                 "Dyalnu\\Curdmix\\CurdmixServiceProvider"
